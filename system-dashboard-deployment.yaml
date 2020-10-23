@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: system-dashboard-deployment
+  name: system-dashboard-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: system-dashboard-deployment
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: system-dashboard-deployment
+    spec:
+      containers:
+      - image: uuuuuuu
+        name: uuuuuuu
+        resources: {}
